@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a demo website" />
+  <meta name="keywords" content="Tailwind, Vite, Frontend, Landing Page" />
+  <meta name="author" content="Hafsa Yousuf" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Codewise</title>
+</head>
+
+<body class="font-poppins overflow-x-hidden">
+  <header>
+    <!-- Toggle menu -->
+    <div
+      class="inner-menu xs-w-[70%] fixed top-0 right-0 bottom-0 z-50 h-[100vh] w-[90%] max-w-full translate-x-full overflow-x-hidden bg-[#1a2532] transition-transform duration-800 ease-in-out md:w-[40%] lg:w-[30%]">
+      <!-- close button -->
+      <span class="btn fixed top-10 right-8 z-50 cursor-pointer text-2xl text-white">✕</span>
+      <ul class="px-5 pt-20 text-lg text-white">
+        <li class="my-3 text-blue-900">Home</li>
+        <li class="my-3">About us</li>
+        <li class="my-3">Contact us</li>
+      </ul>
+    </div>
+
+    <!-- navbar -->
+    <div class="nav mx-auto flex w-[90%] max-w-[1440px] items-center justify-between py-12 sm:px-6 lg:px-12">
+      <img class="xs:w-60 h-auto w-45 md:w-70 lg:w-auto" src="./Assets/logo.png" />
+      <!-- hamburger menu -->
+      <div class="hamburger-menu pt-2 md:mr-20 md:pt-3 lg:pt-5">
+        <div class="my-1 h-0.5 w-5 bg-black md:my-1.5 md:w-7"></div>
+        <div class="my-1 h-0.5 w-5 bg-black md:my-1.5 md:w-7"></div>
+        <div class="my-1 h-0.5 w-5 bg-black md:my-1.5 md:w-7"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- hero section -->
+  <section class="hero">
+    <div
+      class="mx-auto w-[90%] max-w-[1440px] sm:px-6 md:my-12 md:flex md:items-center md:justify-between md:space-x-10 lg:px-12">
+      <!-- Right/Text -->
+      <div class="right my-10 text-[#707070] md:my-0 md:w-[50%]">
+        <h1 class="xs:text-3xl text-2xl leading-loose font-medium lg:text-4xl xl:text-6xl">
+          We Create Digital <br />
+          <span class="block w-full bg-gradient-to-r from-[#3251CE] to-[#7187E1] px-1 font-bold text-white md:w-fit">
+            Experience People
+          </span>
+          Love
+        </h1>
+
+        <div class="text-md mt-4 md:mt-6 xl:mt-8 xl:text-xl">
+          <p>Ullamcorper malesuada proin libero nunc. Quis ipsum suspen</p>
+        </div>
+
+        <!-- Let's Connect button -->
+        <button class="btn-connect mt-8 xl:mt-10">
+          <a href="#" class="rounded-md border border-[#3251CE] px-7 py-3 text-lg xl:text-2xl">
+            Let's Connect
+          </a>
+        </button>
+      </div>
+
+      <!-- Left/Image -->
+      <div class="left my-16 h-auto max-w-fit md:my-0 md:w-[50%]">
+        <img src="./Assets/banner-img.png" alt="banner-img" class="h-auto w-full object-contain" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section class="bg-gray-100 py-6">
+    <div
+      class="mx-auto w-[90%] max-w-[1440px] sm:px-6 md:my-12 md:flex md:items-center md:justify-between md:space-x-10 lg:px-12">
+      <!-- left/image -->
+      <div class="left my-16 h-auto max-w-fit md:my-0 md:w-[50%]">
+        <img src="./Assets/about-img.png" alt="About-img" class="h-auto w-full object-contain" />
+      </div>
+
+      <!-- right/Text -->
+      <div class="right my-10 md:my-0 md:w-[50%]">
+        <div class="my-4 text-xl text-[#3251CE] md:my-6 lg:text-2xl xl:my-8">
+          <p>About Us</p>
+        </div>
+        <h1 class="text-2xl leading-normal font-normal text-[#707070] lg:text-3xl xl:text-4xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper
+          fermentum eros. Fusce molestie, ante vitae lobortis
+        </h1>
+
+        <!-- Get quote button -->
+        <button class="get-quote mt-8 xl:mt-10">
+          <a href="#"
+            class="rounded-md border-0 bg-[#3251CE] px-12 py-3 text-lg text-white hover:border hover:border-[#3251CE] hover:bg-white hover:text-[#3251CE] xl:text-2xl">
+            Get Quote
+          </a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!--services section -->
+  <section class="pt-6">
+    <div class="mx-auto w-[90%] max-w-[1440px] sm:px-6 md:my-12 lg:px-12">
+      <!-- heading -->
+      <div class="my-4 text-xl text-[#3251CE] md:my-6 lg:text-2xl xl:my-8">
+        <p>WHAT WE DO</p>
+      </div>
+
+      <!--service -->
+      <div class="md:flex md:items-center md:space-x-4 lg:max-w-[90%]">
+        <h2 class="my-6 text-5xl font-semibold text-[#707070] md:w-[40%] md:pr-4 lg:text-5xl">
+          SERVICES
+        </h2>
+        <p class="text-[#707070] md:w-[60%] md:pl-4 md:text-sm lg:text-lg xl:text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper
+          fermentum eros. Fusce molestie, ante vitae lobortis
+        </p>
+      </div>
+
+      <!--items services -->
+      <div class="mt-10 block gap-10 md:mt-4 md:flex md:py-20">
+        <div
+          class="relative mt-10 grid w-full grid-cols-2 grid-rows-3 pl-5 text-sm text-[#707070] before:absolute before:top-0 before:left-0 before:z-10 before:h-full before:w-[3px] before:bg-[linear-gradient(180deg,#3251CE_0%,#3251CE_33%,#7187E1_33%,#7187E1_66%,#a3a3a3_66%)] before:content-[''] sm:text-lg md:mt-0 md:w-[60%] md:text-xl xl:text-3xl">
+          <div class="item-1 flex aspect-auto h-44 shadow-[0_3px_33px_0_rgba(0,0,0,0.16)]">
+            <img src="./Assets/ui-ux.png" alt="UI/UX Design illustration" class="h-full w-full object-cover" />
+          </div>
+
+          <div class="item-2 flex h-44 items-center justify-center bg-white shadow-[0_3px_33px_0_rgba(0,0,0,0.16)]">
+            <h3 class="text-center">UI/UX DESIGN</h3>
+          </div>
+
+          <div class="item3 flex h-44 items-center justify-center bg-white shadow-[0_3px_33px_0_rgba(0,0,0,0.16)]">
+            <h3 class="text-center">BRANDING</h3>
+          </div>
+
+          <div class="item4 flex h-44 shadow-[0_3px_33px_0_rgba(0,0,0,0.16)]">
+            <img src="./Assets/branding.png" alt="branding image" class="h-full w-full object-cover" />
+          </div>
+
+          <div class="item5 flex h-44 items-center justify-center bg-white shadow-[0_3px_33px_0_rgba(0,0,0,0.16)]">
+            <h3 class="text-center">DIGITAL MARKETING</h3>
+          </div>
+
+          <div
+            class="item6 flex h-44 items-center justify-center bg-[url('./Assets/app.png')] bg-cover bg-center shadow-[0_3px_33px_0_rgba(0,0,0,0.16)]">
+            <h3 class="text-center">APPLICATION DEVELOPMENT</h3>
+          </div>
+        </div>
+
+        <!--image/left -->
+        <div class="mt-10 flex w-full items-center justify-center md:mt-0 md:w-[40%]">
+          <img src="./Assets/services-img.png" alt="services image" class="h-full w-full object-contain" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <section class="testimonials md:py-0">
+    <div class="mx-auto w-[90%] max-w-[1440px] sm:px-6 lg:px-12">
+      <div class="mb-10 block gap-5 text-[#707070] md:flex">
+        <!--item 1-->
+        <div class="my-8 rounded-xl p-4 shadow-[0_3px_11px_0_rgba(0,0,0,0.13)] md:my-0 lg:p-6">
+          <p class="mt-2 text-sm lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit,
+          </p>
+          <div class="card my-5 flex items-center gap-3 lg:gap-5">
+            <div><img src="./Assets/testi-author.png" /></div>
+            <div>
+              <h3 class="text-[0.8rem] font-medium text-black lg:text-[1rem]">
+                Alex Marina
+              </h3>
+              <p class="text-[0.6rem] text-black lg:text-[0.8rem]">
+                Developer Antushiast
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--item 2-->
+        <div class="my-8 rounded-xl p-4 shadow-[0_3px_11px_0_rgba(0,0,0,0.13)] md:my-0 lg:p-6">
+          <p class="mt-2 text-sm lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit,
+          </p>
+          <div class="card my-5 flex items-center gap-3 lg:gap-5">
+            <div><img src="./Assets/testi-author.png" /></div>
+            <div>
+              <h3 class="text-[0.8rem] font-medium text-black lg:text-[1rem]">
+                Alex Marina
+              </h3>
+              <p class="text-[0.6rem] text-black lg:text-[0.8rem]">
+                Developer Antushiast
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--item 3-->
+        <div class="my-8 rounded-xl p-4 shadow-[0_3px_11px_0_rgba(0,0,0,0.13)] md:my-0 lg:p-6">
+          <p class="mt-2 text-sm lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit,
+          </p>
+          <div class="card my-5 flex items-center gap-3 lg:gap-5">
+            <div><img src="./Assets/testi-author.png" /></div>
+            <div>
+              <h3 class="text-[0.8rem] font-medium text-black lg:text-[1rem]">
+                Alex Marina
+              </h3>
+              <p class="text-[0.6rem] text-black lg:text-[0.8rem]">
+                Developer Antushiast
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---Clients-->
+  <section class="clients my-10 md:my-20 md:py-6">
+    <div class="mx-auto w-[90%] max-w-[1440px] sm:px-6 md:my-12 lg:px-12">
+      <div class="flex items-center justify-between gap-4">
+        <img src="./Assets/1.png" alt="luminous" class="h-auto w-[16%] sm:w-[15%] md:w-[16%] lg:w-[14%]" />
+        <img src="./Assets/2.png" alt="snapshot" class="h-auto w-[16%] sm:w-[15%] md:w-[16%] lg:w-[14%]" />
+        <img src="./Assets/3.png" alt="waveless" class="h-auto w-[16%] sm:w-[15%] md:w-[16%] lg:w-[14%]" />
+        <img src="./Assets/4.png" alt="minty" class="h-auto w-[16%] sm:w-[15%] md:w-[16%] lg:w-[14%]" />
+        <img src="./Assets/5.png" alt="cloud" class="h-auto w-[16%] sm:w-[15%] md:w-[16%] lg:w-[14%]" />
+      </div>
+    </div>
+  </section>
+
+  <!---contact section-->
+  <section class="form bg-[#3251ce] py-10">
+    <div class="mx-auto w-[90%] max-w-[1440px] sm:px-6 md:my-12 lg:px-12">
+      <div class="items-center justify-center space-x-20 md:flex">
+        <!---Right form--->
+        <div class="form w-full text-white md:w-[60%]">
+          <p class="py-2 text-xl md:py-4 md:text-4xl">LET'S TALK</p>
+          <h2 class="pb-4 text-2xl font-bold md:pb-8 md:text-4xl">
+            HAVE ANY PROJECT
+          </h2>
+
+          <form name="contact-form" method="get" class="block">
+            <div class="block space-x-5 md:flex">
+              <div class="relative my-2 w-full md:my-0 md:w-1/2">
+                <label for="username" class="absolute -top-3 left-6 bg-[#3251ce] px-3">Name</label>
+                <input
+                  class="h-[50px] w-full rounded-md border border-white bg-transparent p-5 focus:border-[#86b7fe] focus:shadow-[0px_0px_0px_.25rem_rgba(13,110,253,0.25)] focus:outline-0 md:h-[60px]"
+                  type="text" name="username" value="" id="username" required />
+              </div>
+
+              <div class="relative my-10 w-full md:my-0 md:w-1/2">
+                <label for="E-mail" class="absolute -top-3 left-6 bg-[#3251ce] px-3">E-mail</label>
+                <input
+                  class="h-[50px] w-full rounded-md border border-white bg-transparent p-5 focus:border-[#86b7fe] focus:shadow-[0px_0px_0px_.25rem_rgba(13,110,253,0.25)] focus:outline-0 md:h-[60px]"
+                  type="email" name="E-mail" value="" id="E-mail" required />
+              </div>
+            </div>
+
+            <div class="block space-x-5 md:flex">
+              <div class="relative my-10 w-full md:w-1/2">
+                <label for="Phone-Number" class="absolute -top-3 left-6 bg-[#3251ce] px-3">Phone Number</label>
+                <input
+                  class="h-[50px] w-full rounded-md border border-white bg-transparent p-5 focus:border-[#86b7fe] focus:shadow-[0px_0px_0px_.25rem_rgba(13,110,253,0.25)] focus:outline-0 md:h-[60px]"
+                  type="number" name="Phone-Number" value="" id="Phone-Number" required />
+              </div>
+
+              <div class="relative my-10 w-full md:w-1/2">
+                <label for="website" class="absolute -top-3 left-6 bg-[#3251ce] px-3">Your Website</label>
+                <input
+                  class="h-[60px] w-full rounded-md border border-white bg-transparent p-5 focus:border-[#86b7fe] focus:shadow-[0px_0px_0px_.25rem_rgba(13,110,253,0.25)] focus:outline-0"
+                  type="text" name="website" value="" id="website" required />
+              </div>
+            </div>
+
+            <div class="relative my-10 md:my-2">
+              <label for="Message" class="absolute -top-3 left-6 bg-[#3251ce] px-3">Message</label>
+              <textarea rows="6"
+                class="h-[349px] w-full overflow-hidden rounded-md border border-white bg-transparent p-5 focus:border-[#86b7fe] focus:shadow-[0px_0px_0px_.25rem_rgba(13,110,253,0.25)] focus:outline-0"
+                type="text" name="Message" value="" id="Message" required>
+                </textarea>
+            </div>
+
+            <div class="block space-x-4 md:flex">
+              <button
+                class="md:font-xl rounded-md border border-white px-10 py-3 text-center font-semibold md:px-16 md:py-5">
+                Submit Now
+              </button>
+              <div class="contact-number flex space-x-4 py-6">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z">
+                    </path>
+                  </svg>
+                </div>
+                <div>
+                  <a href="#" class="text-xl">090078601099</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!--left side/image-->
+        <div class="py-4 md:w-[40%]">
+          <img src="./Assets/contact.png" alt="contact-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---subscription-->
+  <section class="pt-20 text-[#707070]">
+    <div class="mx-auto w-[90%] max-w-[1440px] sm:px-6 md:my-12 lg:px-12">
+      <div class="flex flex-col items-center justify-center">
+        <img src="./Assets/footer-logo.png" alt="footer image" class="w-auto object-contain" />
+        <p class="mx-0 px-0 py-6 text-center text-sm md:text-xl">
+          Subscribe to be informed about tokens sale in advance
+        </p>
+
+        <!-- Email Input -->
+        <form class="relative mx-auto flex w-full max-w-xl items-center overflow-hidden rounded-full bg-[#707070]">
+          <input type="email" placeholder="E-mail"
+            class="h-[52px] flex-grow rounded-l-full bg-transparent p-4 text-white placeholder-gray-300 focus:outline-none lg:text-xl" />
+          <button type="submit"
+            class="absolute right-0 h-[52px] w-[40%] rounded-full bg-[#3251CE] text-white transition hover:bg-blue-700 lg:text-xl">
+            Send
+          </button>
+        </form>
+
+        <!--icons-->
+        <div class="icons py-10">
+          <ul class="list-unstyled social-list flex gap-4 lg:gap-8">
+            <li class="rounded-full border-2 p-2">
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                  </path>
+                </svg></a>
+            </li>
+            <li class="rounded-full border-2 p-2">
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z">
+                  </path>
+                </svg></a>
+            </li>
+            <li class="rounded-full border-2 p-2">
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                  </path>
+                </svg></a>
+            </li>
+            <li class="rounded-full border-2 p-2">
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-send-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z">
+                  </path>
+                </svg></a>
+            </li>
+            <li class="rounded-full border-2 p-2">
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                  </path>
+                </svg></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer class="mt-5 border-t py-6 text-[#707070]">
+    <div class="mx-auto w-[90%] max-w-[1440px] lg:px-12">
+      <p class="m-0 p-0 text-center text-sm md:text-xl">
+        codewise.com © 2022 All Rights Reserveds.
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+
+</html>

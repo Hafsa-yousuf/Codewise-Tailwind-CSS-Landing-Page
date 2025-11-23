@@ -1,0 +1,11 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore environment variables (usually contain secrets)
+.env
+
+# macOS system file, not needed in repo
+.DS_Store
