@@ -1,6 +1,6 @@
 # Codewise - Tailwind CSS Landing Page
 
-A modern, fully responsive **landing page** built with **Tailwind CSS** and **PostCSS + vite**. I recreated the complete frontend from scratch to improve my skills in modern frontend workflows, Tailwind styling, responsive layouts, and clean code structure.
+A modern, fully responsive **landing page** built with **Tailwind CSS** and **PostCSS + vite**. I recreated the complete frontend from scratch to improve my skills in modern frontend workflows, Tailwind styling, responsive layouts and deployment workflow.
 
 ## 🚀 Features
 
